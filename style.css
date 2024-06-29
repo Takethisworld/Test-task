@@ -1,0 +1,59 @@
+.body{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+font-family: Inter;
+}
+
+.tab__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3579F5;
+    border-radius: 10px;
+    width: 743px;
+    height: 91px;
+}
+
+.checklist__list{
+    list-style: none;
+}
+
+.checklist__item{
+    color: #FFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.first__item{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.title__cont{
+    background-color: #2364DB;
+    width:76px;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.btn__cont{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    font-family: Inter;
+    width: 170px;
+    height: 40px;
+    color: #4777ED;
+    background-color: #F4F8FF;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
